@@ -5,6 +5,12 @@ node_modules/
 docs/
 
 # Flow configuration and cache
-.flowconfig
 .flow/
 .flowcache/
+
+# Mengabaikan cache ESLint
+.eslintcache
+
+# Mengabaikan cache dan hasil build (jika ada)
+dist/
+build/
